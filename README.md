@@ -24,4 +24,4 @@ Please see [the original documentation](https://metacpan.org/pod/Music::VoiceGen
 
 ## AUTHOR
 
-thrig - Jeremy Mates <jmates at cpan.org>
+thrig - Jeremy Mates (jmates at cpan.org)
