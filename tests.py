@@ -1,3 +1,5 @@
+import sys
+sys.path.append('./src')
 from music_voicegen.music_voicegen import MusicVoiceGen
 import unittest
 
