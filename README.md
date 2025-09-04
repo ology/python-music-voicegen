@@ -22,6 +22,6 @@ voices = [ voice.rand() for i in range(8) ]
 
 Please see [the original documentation](https://metacpan.org/pod/Music::VoiceGen) for detailed usage.
 
-# AUTHOR
+## AUTHOR
 
 thrig - Jeremy Mates <jmates at cpan.org>
