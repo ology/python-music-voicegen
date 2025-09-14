@@ -17,7 +17,7 @@ voice = MusicVoiceGen(
     intervals=[-4,-3,-2,-1,1,2,3,4]
 )
 
-voices = [ voice.rand() for i in range(8) ]
+voices = [ voice.rand() for _ in range(8) ]
 ```
 
 Please see [the original documentation](https://metacpan.org/pod/Music::VoiceGen) for detailed usage.
