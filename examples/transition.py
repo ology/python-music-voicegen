@@ -61,7 +61,7 @@ keys = [' '.join(i) for i in list(transition.keys())]
 
 voice = MusicVoiceGen(
     pitches=pitches,
-    intervals=[ i for i in range(-7,8) if i != 0 ]
+    intervals=intervals
 )
 # voice.context(context=[60]) # start at middle c
 
