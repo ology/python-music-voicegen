@@ -17,7 +17,7 @@ max = int(sys.argv[1]) if len(sys.argv) > 1 else 16 # maximum notes in the resul
 
 transition = {}
 prev = None # network item
-last = None # network transition item
+last = None # network item
 total = 0 # total number of notes
 pitches = []
 intervals = []
