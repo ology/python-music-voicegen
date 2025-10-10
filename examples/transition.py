@@ -58,12 +58,14 @@ voice = MusicVoiceGen(
 # voice.context(context=[60]) # start at middle c
 
 # build the score
-for _ in range(max):
+i = 0
+while(i < max):
     if key in transition:
         draw = voice.rand()
         n = note.Note(draw)
         score.append(n)
         key = (key[1], n.name)
+        i += 1
     else:
         print(key)
         # score.append(note.Rest())
