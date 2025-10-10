@@ -10,7 +10,7 @@ from music_voicegen.music_voicegen import MusicVoiceGen
 # song = converter.parse('/Users/gene/Music/MIDI/lichens_g_major.mid')
 # song = corpus.parse('bwv66.6')
 song = corpus.parse('bwv1.6')
-song = instrument.partitionByInstrument(song)[3] # only inspect a single part
+song = instrument.partitionByInstrument(song)[0] # only inspect a single part
 # song.show()
 
 max = int(sys.argv[1]) if len(sys.argv) > 1 else 16 # maximum notes in the result phrase
