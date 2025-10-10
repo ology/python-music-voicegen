@@ -16,7 +16,7 @@ voice = MusicVoiceGen(
     pitches=[60,62,64,65,67,69],
     intervals=[-4,-3,-2,-1,1,2,3,4]
 )
-
+voice.context(context=[60]) # start at middle c
 voices = [ voice.rand() for _ in range(8) ]
 ```
 
