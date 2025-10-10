@@ -10,7 +10,7 @@ from music_voicegen import MusicVoiceGen
 # song = converter.parse('/Users/gene/Music/MIDI/lichens_g_major.mid')
 song = corpus.parse('bwv66.6')
 
-notes = 16 # maximum notes in the result phrase
+max = 16 # maximum notes in the result phrase
 transition = {}
 prev = None # network item
 last = None # network transition item
@@ -57,7 +57,7 @@ voice = MusicVoiceGen(
 # voice.context(context=[60]) # start at middle c
 
 # build the score
-for _ in range(notes):
+for _ in range(max):
     if key in transition:
         draw = voice.rand()
         n = note.Note(draw)
