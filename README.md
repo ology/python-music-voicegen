@@ -13,7 +13,7 @@ This module offers the ability to generate a voice (a series of notes or melody)
 from music_voicegen import MusicVoiceGen
 
 voice = MusicVoiceGen(
-    pitches=[60,62,64,65,67,69],
+    pitches=[57,59,60,62,64,65,67,69],
     intervals=[-4,-3,-2,-1,1,2,3,4]
 )
 voice.context(context=[60]) # start at middle c
