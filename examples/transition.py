@@ -10,7 +10,7 @@ from music_voicegen import MusicVoiceGen
 # song = converter.parse('/Users/gene/Music/MIDI/lichens_g_major.mid')
 song = corpus.parse('bwv66.6')
 
-max = sys.argv[1] if len(sys.argv) > 1 else 16 # maximum notes in the result phrase
+max = int(sys.argv[1]) if len(sys.argv) > 1 else 16 # maximum notes in the result phrase
 
 transition = {}
 prev = None # network item
