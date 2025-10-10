@@ -5,7 +5,7 @@ import sys
 sys.path.append('./src')
 from music_voicegen.music_voicegen import MusicVoiceGen
 # else:
-from music_voicegen import MusicVoiceGen
+# from music_voicegen import MusicVoiceGen
 
 # song = converter.parse('/Users/gene/Music/MIDI/lichens_g_major.mid')
 # song = corpus.parse('bwv66.6')
